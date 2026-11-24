@@ -46,7 +46,7 @@
       `Problem description: ${data.get('message') || 'Not provided'}`,
       data.get('photo')?.name ? `Photo selected: ${data.get('photo').name} (I will attach it in this WhatsApp chat)` : ''
     ].filter(Boolean);
-    const url = `https://wa.me/918808188105?text=${encodeURIComponent(fields.join('\n'))}`;
+    const url = `https://wa.me/918605810580?text=${encodeURIComponent(fields.join('\n'))}`;
     note.textContent = 'Opening WhatsApp with your inspection details. Review the message and press Send in WhatsApp. If you selected a photo, attach it manually in the chat.';
     window.open(url, '_blank', 'noopener,noreferrer');
   });
